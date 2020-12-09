@@ -1,4 +1,4 @@
-new Clipboard('.copiar');
+// new Clipboard('.copiar');
 
 // var clipboard = new Clipboard('foo');
 
