@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Moon Food Zacatecas">
+    <meta name="description" content="Servicio de raparto a domicilio">
+    <meta name="keywords" content="pedidos, envios, comida, almuerzo, cena, peaje, domicilio">
+    <meta name="robots" content="index, follow">
+
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon-mfz.ico">
+	<link rel="stylesheet" href="css/estilos-mfz.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<title>Moon Food Zacatecas</title>
+</head>
+<body>
+
+	<!-- MENU -->
+	<nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #e3f2fd;">
+		<a class="navbar-brand" href="#">
+			<img src="img/moon-food-zacatecas.svg" width="30" height="30"
+				class="d-inline-block align-top" alt="" loading="lazy">
+			MOON FOOD ZACATECAS
+		</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="#">Pizza</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Sushi</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Hamburguesas</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Mexicana</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Saludable</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Mariscos</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+						aria-haspopup="true" aria-expanded="false">
+						Otros
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">Americana</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Oiental</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Italiana</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Bebidas</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Postres</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Snacks</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- BUSCADOR -->
+	<div class="container">
+		<div class="row">
+			<div class="col mb-3 mt-3">
+				<form action="">
+					<div class="input-group">
+						<input type="text" class="form-control" id="barra-busqueda" placeholder="Buscar">
+						<div class="input-group-append">
+							<span class="input-group-text">
+								<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-search" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" d="M10.442 10.442a1 1 0 0 1 1.415 0l3.85 3.85a1 1 0 0 1-1.414 1.415l-3.85-3.85a1 1 0 0 1 0-1.415z"/>
+									<path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11zM13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0z"/>
+								</svg>
+							</span>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>	
+	</div>
+
+	<!-- MENU CATEGORIAS -->
+	<div class="container">
+		<div class="row">
+			<div class="menu-categorias col mb-3" id="categorias">
+				<div class="mc-caja">
+					<a href="#" class="mcc-activo">Todos</a>
+					<img src="img/img-transparente.png" class="mcc-todos" alt="">
+				</div>
+				<div class="mc-caja">
+					<a href="#">Pizza</a>
+					<img src="img/img-transparente.png" class="mcc-pizza" alt="">
+				</div>
+				<div class="mc-caja">
+					<a href="#">Sushi</a>
+					<img src="img/img-transparente.png" class="mcc-sushi" alt="">
+				</div>
+				<div class="mc-caja">
+					<a href="#">Hamburguesas</a>
+					<img src="img/img-transparente.png" class="mcc-hamburguesas" alt="">
+				</div>
+				<div class="mc-caja">
+					<a href="#">Mexicana</a>
+					<img src="img/img-transparente.png" class="mcc-mexicana" alt="">
+				</div>
+				<div class="mc-caja">
+					<a href="#">Mariscos</a>
+					<img src="img/img-transparente.png" class="mcc-mariscos" alt="">
+				</div>
+				<div class="mc-caja">
+					<a href="#">Americana</a>
+					<img src="img/img-transparente.png" class="mcc-americana" alt="">
+				</div>
+				<div class="mc-caja">
+					<a href="#">Oriental</a>
+					<img src="img/img-transparente.png" class="mcc-oriental" alt="">
+				</div>
+				<div class="mc-caja">
+					<a href="#">Italiana</a>
+					<img src="img/img-transparente.png" class="mcc-italiana" alt="">
+				</div>
+				<div class="mc-caja">
+					<a href="#">Bebidas</a>
+					<img src="img/img-transparente.png" class="mcc-bebidas" alt="">
+				</div>
+				<div class="mc-caja">
+					<a href="#">Postres</a>
+					<img src="img/img-transparente.png" class="mcc-postres" alt="">
+				</div>
+				<div class="mc-caja">
+					<a href="#">Snacks</a>
+					<img src="img/img-transparente.png" class="mcc-snacks" alt="">
+				</div>
+				<div class="mc-caja">
+					<a href="#">Otros</a>
+					<img src="img/img-transparente.png" class="mcc-otros" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- GALERIA IMAGENES -->
+	<div class="container">
+		<section class="grid" id="grid">
+			<!-- "data categoria" clic en el menu categorias -->
+			<!-- "data-etiquetas" tipeo en la barra de busqueda -->
+			<div class="item"
+				data-categoria="tacos"
+				data-etiquetas="taqueria panchito tacos barbacoa pastor bistec mexicana"
+			>
+				<div class="item-contenido">
+					<a href="pag/thmeno.html" class="link-img">
+						<img src="img/tp01/taqueria-panchito.jpg" class="rounded" alt="">
+					</a>
+				</div>
+			</div>
+	
+			<!-- "data categoria" clic en el menu categorias -->
+			<!-- "data-etiquetas" tipeo en la barra de busqueda -->
+			<div class="item"
+				data-categoria="hamburguesas"
+				data-etiquetas="meño tacos hamburguesas hot dog papas"
+			>
+				<div class="item-contenido">
+					<a href="pag/thmeno.html" class="link-img">
+						<img src="img/thm01/sitio-logo-tacos-hamburguesas-meno.jpg" class="rounded" alt="">
+					</a>
+				</div>
+			</div>
+
+			<!-- "data categoria" clic en el menu categorias -->
+			<!-- "data-etiquetas" tipeo en la barra de busqueda -->
+			<div class="item"
+				data-categoria="hamburguesas"
+				data-etiquetas="ay wey tacos hamburguesas hot dog papas"
+			>
+				<div class="item-contenido">
+					<a href="pag/thmeno.html" class="link-img">
+						<img src="img/awbt01/ay-wey-burger-y-tacos.jpg" class="rounded" alt="">
+					</a>
+				</div>
+			</div>
+
+			<!-- "data categoria" clic en el menu categorias -->
+			<!-- "data-etiquetas" tipeo en la barra de busqueda -->
+			<div class="item"
+				data-categoria="hamburguesas"
+				data-etiquetas="tocinaras hamburguesas hot dog papas"
+			>
+				<div class="item-contenido">
+					<a href="pag/thmeno.html" class="link-img">
+						<img src="img/tth01/tocineras-tienda-hamburguesas.jpg" class="rounded" alt="">
+					</a>
+				</div>
+			</div>
+	
+			<!-- <div class="item" data-categoria="paisajes" data-etiquetas="paisajes montañas mar playas"
+				data-descripcion="3.- Lorem ipsum dolor sit amet consectetur.">
+				<div class="item-contenido">
+					<img src="img/paisaje1.png" alt="">
+				</div>
+			</div>
+	
+			<div class="item" data-categoria="animales" data-etiquetas="animales leones"
+				data-descripcion="4.- Lorem ipsum dolor sit amet consectetur.">
+				<div class="item-contenido">
+					<img src="img/animal1.png" alt="">
+				</div>
+			</div>
+	
+			<div class="item" data-categoria="animales" data-etiquetas="animales pandas"
+				data-descripcion="5.- Lorem ipsum dolor sit amet consectetur.">
+				<div class="item-contenido">
+					<img src="img/animal2.png" alt="">
+				</div>
+			</div>
+	
+			<div class="item" data-categoria="personas" data-etiquetas="personas mujeres"
+				data-descripcion="6.- Lorem ipsum dolor sit amet consectetur.">
+				<div class="item-contenido">
+					<img src="img/persona2.png" alt="">
+				</div>
+			</div>
+	
+			<div class="item" data-categoria="paisajes" data-etiquetas="paisajes montañas niebla"
+				data-descripcion="7.- Lorem ipsum dolor sit amet consectetur.">
+				<div class="item-contenido">
+					<img src="img/paisaje2.png" alt="">
+				</div>
+			</div>
+	
+			<div class="item" data-categoria="ciudades" data-etiquetas="ciudades paisajes carreteras"
+				data-descripcion="8.- Lorem ipsum dolor sit amet consectetur.">
+				<div class="item-contenido">
+					<img src="img/ciudad2.png" alt="">
+				</div>
+			</div>
+	
+			<div class="item" data-categoria="naturaleza" data-etiquetas="naturaleza hojas plantas" data-descripcion="9.- Lorem ipsum dolor sit amet consectetur.
+					 	">
+				<div class="item-contenido">
+					<img src="img/naturaleza1.png" alt="">
+				</div>
+			</div> -->
+		</section>
+	
+	</div>
+
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+	
+	<script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+	<script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+	<script src="js/bootstrap.js"></script>
+	
+	<script src="js/funciones-mfz.js"></script>
+</body>
+</html>
